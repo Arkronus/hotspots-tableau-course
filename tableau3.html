@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotspot 1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+      
+      <div class="container">
+        <div class="lg-container">
+          <img class="lg-image"
+            src="images/Tableau_Data_Source.png" />
+      
+          <div style="top: 22%; left: 5%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Connections</h4>
+              <p>Здесь вы можете отредактировать подключение к файлу или серверу (например в том случае, если у них поменялось имя или логин/пароль для доступа)</p>
+            </div>
+          </div>
+          
+          <div style="top: 50%; left: 5%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Список листов / таблиц</h4>
+              <p>В списке перечислены все таблицы, которые существуют в источнике. С помощью строки поиска таблицы можно искать по названию.</p>
+            </div>
+          </div>
+          
+          <div style="top: 12%; left: 23%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Список источников данных</h4>
+              <p>Когда вы создаете подключение, Tableau автоматически создает источник (по-английски Data Source) на основе которого вы в дальнейшем создаете свои визуализации и дашборды. Здесь мы можете добавить новые источники данных или поменять название у текущего.</p>
+            </div>
+          </div>
+          
+          <div style="top: 25%; left: 25%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Редактирование связей (relations)</h4>
+              <p>Если в вашей модели несколько связей, то между ними появляется линия. Если нажать на неё правой кнопкой мыши, можно редактировать настройки связей, например по каким полям эта связь формируется.</p>
+              <img src="images/relations.gif" alt="">
+            </div>
+          </div>
+          
+          <div style="top: 25%; left: 30%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Редактирование соединений (join)</h4>
+              <p>Если вам нужно создать соединение (join), то нужно перейти в редактор соединений. Щелкните 2 раза на таблицу, с которой вы хотите сделать соединение. В появившемся интерфейсе вы можете добавить новые таблицы и установить тип соединения</p>
+              <img src="images/joins.gif" alt="">
+            </div>
+          </div>
+          
+          <div style="top: 25%; left: 40%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Окно модели данных</h4>
+              <p>В этом окне вы видите все таблицы и связи между ними. Если щелкнуть на таблицу правой кнопкой мыши, появится меню с дополнительными настройками.</p>
+            </div>
+          </div>
+          
+          <div style="top: 15%; left: 80%;" class="lg-hotspot lg-hotspot--top-right">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Настройка подключений</h4>
+              <p>Здесь вы можете настроить тип подключения - прямое подключение к источнику или создание экстракта (сохраненной версии данных)</p>
+            </div>
+          </div>
+          <div style="top: 15%; left: 95%;" class="lg-hotspot lg-hotspot--top-right">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Фильтры</h4>
+              <p>Вы можете указать фильтры, которые будут применятся ко всем запросам в данном подключении</p>
+            </div>
+          </div>
+          <div style="top: 70%; left: 50%;" class="lg-hotspot lg-hotspot--top-left">
+            <div class="lg-hotspot__button"></div>
+            <div class="lg-hotspot__label">
+              <h4>Предпросмотр данных</h4>
+              <p>В этом разделе вы можете посмотреть, какие данные будут вам доступны после подключения всех таблиц и применения фильтров</p>
+            </div>
+          </div>
+          
+          
+          
+      </div>
+      <script src="js/script.js"></script>
+</body>
+</html>
